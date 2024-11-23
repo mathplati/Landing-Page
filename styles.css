@@ -1,4 +1,3 @@
-/* Reset e Definições Globais */
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +17,6 @@ a {
     color: inherit;
 }
 
-/* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -49,7 +47,6 @@ a {
     display: none;
 }
 
-/* Menu Responsivo */
 @media (max-width: 768px) {
     .menu {
         display: none;
@@ -75,7 +72,6 @@ a {
     }
 }
 
-/* Seções */
 .section {
     padding: 60px 20px;
     background-color: #fff;
@@ -118,7 +114,6 @@ p {
     line-height: 1.6;
 }
 
-/* Formulário */
 #inscricao {
     background-color: #16a085;
     color: white;
@@ -150,14 +145,13 @@ p {
     background-color: #16a085;
 }
 
-/* Footer */
 footer {
     background-color: #333;
     color: white;
     padding: 20px;
     text-align: center;
 }
-/* Seção de Inscrição */
+
 #inscricao {
     background-color: #16a085;
     color: white;
@@ -233,7 +227,7 @@ footer {
 #inscricao button:active {
     transform: translateY(2px);
 }
-/* Estilos do Cabeçalho */
+
 header {
     background-color: #16a085;
     padding: 20px 0;
@@ -262,11 +256,10 @@ header {
 }
 
 .navbar .menu a:hover {
-    color: #1ABC9C; /* Altere para a cor que você desejar */
-    transform: scale(1.2); /* Aumenta o tamanho do texto */
+    color: #1ABC9C; 
+    transform: scale(1.2);
 }
 
-/* Menu Responsivo */
 @media (max-width: 768px) {
     .menu {
         display: none;
